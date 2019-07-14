@@ -7,7 +7,9 @@
   "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "showcase:sample-preact": "parcel packages/showcase-sample-preact/index.html",
+    "showcase:sample-preact-redux-saga": "parcel packages/showcase-sample-preact-redux-saga/index.html"
   },
   "workspaces": [
     "packages/*"
