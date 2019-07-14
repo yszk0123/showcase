@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "showcase",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,6 +9,9 @@
   "scripts": {
     "start": "parcel index.html"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
   }
