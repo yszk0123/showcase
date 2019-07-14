@@ -1,0 +1,18 @@
+{
+  "name": "showcase-sample-preact-redux-saga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.0.0-rc.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.1.1"
+  },
+  "alias": {
+    "react": "./preact",
+    "react-dom": "preact"
+  }
+}
