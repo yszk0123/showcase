@@ -1,6 +1,5 @@
-/** @jsx h */
-import { h, render } from "preact";
-import { useCallback } from "preact/hooks";
+import React, { useCallback } from "react";
+import { render } from "react-dom";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { createAppStore, increment } from "./ducks";
 

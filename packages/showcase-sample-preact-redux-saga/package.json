@@ -4,15 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "preact": "^10.0.0-rc.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4"
   },
   "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
     "@types/react-redux": "^7.1.1"
-  },
-  "alias": {
-    "react": "./preact",
-    "react-dom": "preact"
   }
 }

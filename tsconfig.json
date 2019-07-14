@@ -4,7 +4,7 @@
     "module": "commonjs",
     "lib": ["esnext", "dom"],
     "jsx": "react",
-    "jsxFactory": "h",
+    // "jsxFactory": "h",
     // "tsBuildInfoFile": "./",
     // "downlevelIteration": true,
     "strict": true,
